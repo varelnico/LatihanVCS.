@@ -1,4 +1,4 @@
-<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="ss.png" width="200" alt="Laravel Logo"></a></p> -->
+
 
 
 
@@ -6,37 +6,6 @@
 
 Petunjuk penggunaan Git dalam membuat project sederhana menggunakan python.
 
-
-
-## Daftar isi
-
-- [Informasi Penulis](#informasi-penulis)
-
-- [Persiapan](#persiapan)
-
-- [Instalasi](#instalasi)
-
-    - [Install Git](#menginstal-git)
-
-    - [Install Python](#menginstall-python)
-
-- [Mempersiapkan GitHub](#mempersiapkan-github)
-
-- [Membuat Project Sederhana](#membuat-project-sederhana)
-
-    - [Membuat Folder](#membuat-folder)
-
-    - [Inisialisasi Git](#inisialisasi-git)
-
-    - [Membuat Project Latihan 1](#membuat-project-latihan-1)
-
-    - [Membuat Project Latihan 2](#membuat-project-latihan-2)
-
-    - [Git Commit](#git-commit)
-
-
-
-## Informasi Penulis
 
 Nama : Varel Nico Ramadhan
 
@@ -70,32 +39,19 @@ Jika bahan - bahan di atas sudah ada semua, silakan lewati bagian ini.
 
 2. Maka akan tampil dialog instalasi Git, lalu klik **Next**.
 
-<p align="center"><a href="src/Instalasi GIT/Tampilan-awal-instalasi-GIT.png" target="_blank"><img src="src/Instalasi GIT/Tampilan-awal-instalasi-GIT.png" width="400" alt="Tampilan Awal"></a></p>
-
 
 
 3. Pilih lokasi untuk menginstall Git, lalu klik **Next**.
-
-<p align="center"><a href="src/Instalasi GIT/Pilih-lokasi-untuk-menginstall-GIT.png" target="_blank"><img src="src/Instalasi GIT/Pilih-lokasi-untuk-menginstall-GIT.png" width="400" alt="Pilih lokasi untuk menginstall git"></a></p>
 
 
 
 4. Pilih komponen yang akan digunakan. Kali ini kita biarkan saja default, lalu klik **Next**.
 
-<p align="center"><a href="src/Instalasi GIT/Pilih-komponen-yang-ingin-digunakan.png" target="_blank"><img src="src/Instalasi GIT/Pilih-komponen-yang-ingin-digunakan.png" width="400" alt="Laravel Logo"></a></p>
-
-
 
 5. Pada tampilan ini, klik **Next**.
 
-<p align="center"><a href="src/Instalasi GIT/Masukkan-nama-folder-GIT.png" target="_blank"><img src="src/Instalasi GIT/Masukkan-nama-folder-GIT.png" width="400" alt="Laravel Logo"></a></p>
-
-
 
 6. Pilih text editor favorit anda atau biarkan saja default, lalu klik **Next**.
-
-<p align="center"><a href="src/Instalasi GIT/Pilih-text-editor.png" target="_blank"><img src="src/Instalasi GIT/Pilih-text-editor.png" width="400" alt="Laravel Logo"></a></p>
-
 
 
 7. Pilih **Override the default branch name for new repositories** dan biarkan saja namanya **main** agar nama branch default yang ada di Git lokal dan di GitHub sama, lalu setelah itu klik **Next**.
@@ -134,25 +90,17 @@ Jika bahan - bahan di atas sudah ada semua, silakan lewati bagian ini.
 
 2. Checklist bagian "**Add python.exe to PATH**", lalu klik "**Install Now**".
 
-<p align="center"><a href="src/Instalasi Python/tampilan-awal.png" target="_blank"><img src="src/Instalasi Python/tampilan-awal.png" width="550" alt="Tampilan Awal"></a></p>
-
 
 
 3. Tunggu sampai proses instalasi selesai.
-
-<p align="center"><a href="src/Instalasi Python/proses-install.png" target="_blank"><img src="src/Instalasi Python/proses-install.png" width="550" alt="Proses Instalasi"></a></p>
 
 
 
 4. Lalu klik "**Disable path length limit**", kemudian klik "**Close**".
 
-<p align="center"><a href="src/Instalasi Python/selesai.png" target="_blank"><img src="src/Instalasi Python/selesai.png" width="550" alt="Proses Instlasi Selesai"></a></p>
-
 
 
 5. Untuk memastikan apakah Python sudah terinstall di komputer, anda bisa check menggunakan terminal/Command Prompt (CMD) dengan mengetik ```python --version```.
-
-<p align="center"><a href="src/Instalasi Python/cek-versi.png" target="_blank"><img src="src/Instalasi Python/cek-versi.png" width="500" alt="Cek Python"></a></p>
 
 
 
@@ -164,26 +112,17 @@ Jika bahan - bahan di atas sudah ada semua, silakan lewati bagian ini.
 
 2. Klik **Sign in** terlebih dahulu jika belum memiliki akun, jika sudah memiliki akun maka klik **Sign In**.
 
-<p align="center"><a href="src/Mempersiapkan GitHub/tampilan-awal-website-GitHub.png" target="_blank"><img src="src/Mempersiapkan GitHub/tampilan-awal-website-GitHub.png" width="750" alt="Tampilan Awal"></a></p>
-
 
 
 3. Setelah itu, maka akn masuk ke halaman beranda GitHub nya. Sekarang buat sebuah repository terlebih dahulu dengan mengklik "**New**".
-
-<p align="center"><a href="src/Mempersiapkan GitHub/buat-repositori-baru.png" target="_blank"><img src="src/Mempersiapkan GitHub/buat-repositori-baru.png" width="750" alt="Tampilan Awal"></a></p>
 
 
 
 4. Beri nama untuk repositorinya, misalkan **lab1py**. lalu klik **Create Repository**.
 
-<p align="center"><a href="src/Mempersiapkan GitHub/beri-nama-lab1py.png" target="_blank"><img src="src/Mempersiapkan GitHub/beri-nama-lab1py.png" width="550" alt="Tampilan Awal"></a></p>
-
 
 
 5. Maka akan masuk ke dalam repository yang baru saja dibuat.
-
-<p align="center"><a href="src/Mempersiapkan GitHub/tampilan-repositori-baru.png" target="_blank"><img src="src/Mempersiapkan GitHub/tampilan-repositori-baru.png" width="750" alt="Tampilan Awal"></a></p>
-
 
 
 ## Membuat Project Sederhana
@@ -219,8 +158,6 @@ Sebelum memulai project diatas, hal yang harus dilakukan pertama kali ada membua
 3. Lalu masuk kedalam folder tersebut.
 
 4. Kemudian buat lagi 3 buah folder baru sesuai dengan project yang akan kita buat.
-
-<p align="center"><a href="src/Mempersiapkan GitHub/tampilan-awal-website-GitHub.png" target="_blank"><img src="src/Mempersiapkan GitHub/tampilan-awal-website-GitHub.png" width="750" alt="Tampilan Awal"></a></p>
 
 
 
@@ -266,20 +203,12 @@ Setelah membuat folder, langkah selanjutnya adalah menginisialisasi git pada fol
 
 2. Ketik ```python``` lalu tekan enter.
 
-<p align="center"><a href="src/Membuat Project/tampilan-awal-setelah-mengetik-python.png" target="_blank"><img src="src/Membuat Project/tampilan-awal-setelah-mengetik-python.png" width="600" alt="Tampilan Awal"></a></p>
-
 
 
 3. Lalu ketik ```print("Hello")``` dan tekan **enter**.
 
-<p align="center"><a href="src/Membuat Project/menampilkan-teks-Hello.png" target="_blank"><img src="src/Membuat Project/menampilkan-teks-Hello.png" width="600" alt="Tampilan Awal"></a></p>
-
-
 
 4. Kemudian ketik lagi ```print("Saya sedang belajar python")``` dan tekan enter.
-
-<p align="center"><a href="src/Membuat Project/menampilkan-teks-saya-sedang-belajar-python.png" target="_blank"><img src="src/Membuat Project/menampilkan-teks-saya-sedang-belajar-python.png" width="600" alt="Tampilan Awal"></a></p>
-
 
 
 5. Pastikan hasil output yang tampil sudah benar dan sesuai dengan gambar diatas. Setelah itu ScreenShoot hasil output yang tampil, lalu simpan hasil screenshootnya kedalam folder **Latihan 1**.
