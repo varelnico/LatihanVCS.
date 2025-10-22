@@ -56,31 +56,21 @@ Jika bahan - bahan di atas sudah ada semua, silakan lewati bagian ini.
 
 7. Pilih **Override the default branch name for new repositories** dan biarkan saja namanya **main** agar nama branch default yang ada di Git lokal dan di GitHub sama, lalu setelah itu klik **Next**.
 
-<p align="center"><a href="src/Instalasi GIT/klik-next-terus.png" target="_blank"><img src="src/Instalasi GIT/klik-next-terus.png" width="400" alt="Laravel Logo"></a></p>
-
 
 
 8. Selanjutnya klik **Next** terus sampai muncul tampilan ini :
-
-<p align="center"><a href="src/Instalasi GIT/proses-instalasi.png" target="_blank"><img src="src/Instalasi GIT/proses-instalasi.png" width="400" alt="Laravel Logo"></a></p>
 
 
 
 9. Kalau prosesnya sudah selesai, klik **Finish**.
 
-<p align="center"><a href="src/Instalasi GIT/instalasi-selesai.png" target="_blank"><img src="src/Instalasi GIT/instalasi-selesai.png" width="400" alt="Laravel Logo"></a></p>
-
 
 
 10. Selamat, Git sudah terinstall di komputer anda. Untuk memastikan apakah Git sudah terinstall, anda bisa membuka **Windows Search** lalu ketik "**Git**". Jika sudah muncul aplikasi Git maka Git sudah berhasil terinstall.
 
-<p align="center"><a href="src/Instalasi GIT/cek-git-di-windows-search.png" target="_blank"><img src="src/Instalasi GIT/cek-git-di-windows-search.png" width="600" alt="Laravel Logo"></a></p>
-
 
 
 11. Atau bisa juga menggunakan Command Prompt (CMD), ketik ```git -v```. Jika CMD menampilkan pesan "**git version 2.xxx**".
-
-<p align="center"><a href="src/Instalasi GIT/cek-git-di-cmd.png" target="_blank"><img src="src/Instalasi GIT/cek-git-di-cmd.png" width="700" alt="Laravel Logo"></a></p>
 
 
 
